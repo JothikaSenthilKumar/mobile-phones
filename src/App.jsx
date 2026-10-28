@@ -47,7 +47,7 @@ function App() {
         />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Chatbot />
+      <Chatbot cart={cart} />
     </BrowserRouter>
   );
 }
